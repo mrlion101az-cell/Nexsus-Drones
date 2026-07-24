@@ -1,0 +1,15 @@
+name: NexusDrones
+version: 0.1.0
+main: com.nexusuniverse.drones.NexusDronesPlugin
+api-version: '1.21'
+author: NexusUniverse
+
+commands:
+  nexusdrones:
+    description: Give and manage drones and turrets.
+    usage: /nexusdrones give <surveillance|kamikaze|turret>
+    aliases: [drones, nd]
+  nexussecurity:
+    description: Give and manage security devices.
+    usage: /nexussecurity give <tablet|camera|laser|ghostdoor>|ignore <player>|cooldown <seconds>
+    aliases: [security, ns]
